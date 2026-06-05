@@ -6,6 +6,9 @@ int main(){
     int mask = a | 90;
     printf("The result of setting the bits of %d with the mask 90 is: %d\n", a, mask);
     return 0;
-    
 
+      // 01001110   (78)
+    // | 01011010   (90)
+     //--------------
+        //01011110  (94)
 }
